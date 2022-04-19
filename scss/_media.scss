@@ -1,0 +1,14 @@
+@mixin odaziv($granica) {
+    @if $granica == small-phone {
+        @media only screen and (max-width: 400px) { @content };
+    }
+
+    @if $granica == phone {
+        @media only screen and (max-width: 600px) { @content };
+    }
+
+    @if $granica == tab {
+        @media only screen and (max-width: 1220px) { @content };
+    }
+
+}

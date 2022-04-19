@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1220px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background: #cccccc;
+}
+
+header {
+  background: #ff575c;
+  padding: 1.4rem;
+  color: antiquewhite;
+}
+
+.master-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flexo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  background: #6a4c94;
+  padding: 0 1rem;
+}
+
+#filterko {
+  padding: 0.5rem 0.75rem;
+  width: 50%;
+  color: #507416;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.45rem;
+}
+
+.links ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.links ul li {
+  float: right;
+}
+
+.links ul li a {
+  display: block;
+  color: azure;
+  text-align: center;
+  padding: 1rem 1.3rem;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  background: #6636ab;
+  transition: 0.3s;
+}
+
+.card {
+  border: 1px solid #f00008;
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+}
+
+@media only screen and (max-width: 1220px) {
+  .card {
+    margin: 0 1rem;
+  }
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+main {
+  background: #8bc926;
+  padding: 1.5rem 0;
+}
+
+main #addForm {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 3rem;
+}
+
+main #addForm #enterNew {
+  border: 1px solid #f00008;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  margin-right: 0.6rem;
+  color: #3a2a51;
+}
+
+main #addForm input[type="submit"] {
+  padding: 0.5rem 0.75rem;
+  color: aliceblue;
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+  background: #6a4c94;
+  border: 1px solid #523b72;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+main #addForm input[type="submit"]:hover {
+  background: #523b72;
+  transition: 0.3s;
+}
+
+main ul {
+  border: 1px solid #f00008;
+  border-radius: 7px;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+main ul .itemLir {
+  border-bottom: 1px solid #f00008;
+  list-style-type: none;
+  padding: 1.7rem 1.5rem;
+}
+
+main ul .itemLir:last-child {
+  border-bottom: none;
+}
+
+.deleteB {
+  float: right;
+  padding: 0.5rem 0.75rem;
+  color: aliceblue;
+  background: #dc3848;
+  border: 1px solid #dc3848;
+  border-radius: 3px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .deleteB {
+    padding: 0.3rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .deleteB {
+    padding: 0.2rem 0.4rem;
+  }
+}
+
+.deleteB:hover {
+  background: #931a26;
+  transition: 0.3s;
+}
+
+.close {
+  color: #8bc926;
+  text-align: center;
+  background: #1981c2;
+  padding: 0.8rem 0;
+  font-weight: 700;
+}
+
+.close a {
+  color: beige;
+  text-decoration: none;
+}
