@@ -196,3 +196,57 @@ main {
 		text-decoration: none;
 	}
 }
+
+.promenaUn {
+	margin: 0 1rem;
+	border: 0.5px solid hsl(358, 100%, 47%);
+	border-radius: 0.25rem;
+	padding: 0.10rem 0.5rem;
+	font-size: 0.8rem;
+}
+
+.promenaDug {
+	padding: 0.10rem 0.5rem;
+	color: aliceblue;
+	text-align: center;
+	background: hsl(265, 32%, 44%);
+	border: 0.5px solid hsl(265, 32%, 34%);
+	border-radius: 0.3rem;			
+	cursor: pointer;
+	font-size: 0.8rem;
+}
+
+.promenaDug:hover {
+	background: hsl(265, 32%, 34%);
+	transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+	width: 20px;
+
+	@include odaziv(phone) {
+		width: 10px;
+	}
+
+	@include odaziv(small-phone) {
+		width: 10px;
+	}
+}
+
+::-webkit-scrollbar-track {
+	background: hsl(358, 100%, 67%);
+	// border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: hsl(265, 32%, 44%);
+	border-radius: 50px;
+
+	@include odaziv(phone) {
+		border-radius: 30px;
+	}
+
+	@include odaziv(small-phone) {
+		border-radius: 30px;
+	}
+}

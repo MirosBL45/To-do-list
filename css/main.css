@@ -199,3 +199,64 @@ main ul .itemLir:last-child {
   color: beige;
   text-decoration: none;
 }
+
+.promenaUn {
+  margin: 0 1rem;
+  border: 0.5px solid #f00008;
+  border-radius: 0.25rem;
+  padding: 0.10rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.promenaDug {
+  padding: 0.10rem 0.5rem;
+  color: aliceblue;
+  text-align: center;
+  background: #6a4c94;
+  border: 0.5px solid #523b72;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.promenaDug:hover {
+  background: #523b72;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: #ff575c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6a4c94;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+  }
+}

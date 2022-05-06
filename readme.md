@@ -6,4 +6,7 @@ I am still learning JavaScript, this mini-project I found on Traversy Media YouT
 
 Also, it is done with SASS, it is fun way to do CSS
 
+###############
+Subsequently I added possibility for change input. When user clicks on item input and button appears. During changing user still can delete others items. After submit change, input and button disappears.  Also added some little things like clean main input field after submitting, message if user try to submit empty field.
+
 Any advice is wellcome :)
